@@ -1,0 +1,13 @@
+.header {
+    background-color: var(--accent-color);
+}
+
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navigation-menu_item {
+    margin: 0 15px;
+}

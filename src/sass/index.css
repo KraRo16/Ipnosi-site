@@ -1,0 +1,79 @@
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+.header {
+  background-color: var(--accent-color);
+}
+
+.navigation-menu {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.navigation-menu_item {
+  margin: 0 15px;
+}
+
+:root {
+  --primary-font-family: "Crimson Text", serif;
+  --secondary-font-family: "Lobster";
+  --accent-color: #008080;
+  --secondary-accent-color: #7FFFD4;
+  --third-accent-color: #808080;
+}/*# sourceMappingURL=index.css.map */
